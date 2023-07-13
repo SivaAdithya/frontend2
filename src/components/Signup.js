@@ -17,7 +17,7 @@ function Signup() {
   e.preventDefault();
 
   try {
-    const response = await axios.post("https://server1-two.vercel.app/backend/signup/", {
+    const response = await axios.post("https://server3-rho.vercel.app/backend/signup/", {
       name,
       email,
       password,
